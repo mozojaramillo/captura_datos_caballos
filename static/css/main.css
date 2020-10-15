@@ -1,0 +1,54 @@
+header{
+    height: 85px;
+    font-size:35px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 1px;
+    background-color: black;
+    border: 8px solid Tomato;
+    text-align:center;
+    margin: 40px;
+  }
+
+body{
+    background-color: teal;
+    
+}
+
+#para1 {
+    border: 2px solid gray;
+    margin: 50px;
+
+}
+
+#para2{
+    position: relative;
+    left: 350px;
+    height: 100px;
+    color:whitesmoke;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+#para3{
+    position: relative;
+    left: 250px;
+    height: 100px;
+    color:whitesmoke;
+    font-size: 25px;
+}
+
+
+
+ul{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-indent: 50px;
+    line-height: 1.8;
+    }
+

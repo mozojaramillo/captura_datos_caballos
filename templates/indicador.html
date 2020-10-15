@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captura datos proyecto Caballos</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/main.css')}}"
+</head>
+
+
+
+
+
+<header>
+Captura de datos proyecto Caballos
+</header>
+
+<body>
+<div id=para1>
+    <p>
+        <ul>
+            <li>
+        Iniciamente este proyecto busca recopilar información dental de los caballos 
+        para ser usada en un proyecto de computer vision.
+            </li>
+    
+        <li>
+        Para cumplir con este propósito queremos almacenar fotos de la dentadura de caballos 
+        acompañando a estas con la respectiva edad de los animales. 
+        </li>
+    
+        <li>
+        Eventualmente nos gustaría ver si podemos 
+        agregar a nuestros datos información de mulas y machos (burros).
+        </li>
+
+        </ul>
+    </p>
+</div>
+
+
+<div id=para3>
+    <p>
+        Tipo de animal:
+    </p>
+
+    <form id=para2>
+
+        <input type="radio" id="Caballar" name="caballo" value="caballar">
+        <label for="male">Caballar</label><br>
+
+        <input type="radio" id="Macho" name="macho" value="Macho">
+        <label for="female">Macho/Mula</label><br>
+        
+    </form>
+
+    <p>
+        Sexo del animal:
+    </p>
+
+    <form id=para2>
+
+        <input type="radio" id="castrado" name="castrado" value="castrado">
+        <label for="castrado">Macho castrado</label><br>
+
+        <input type="radio" id="entero" name="entero" value="entero">
+        <label for="entero">Macho sin castrar</label><br>
+
+        <input type="radio" id="hembra" name="hembra" value="hembra">
+        <label for="hembra">Hembra</label><br>
+        
+    </form>
+</div>
+</p>
+
+
+  
+
+    
+</body>
+</html>

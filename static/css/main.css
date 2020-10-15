@@ -38,7 +38,15 @@ body{
     font-size: 25px;
 }
 
-
+#para4{
+    position: relative;
+    left: 350px;
+    color:black;
+    font-size: 12px;
+    text-align: center;
+    height: 20px;
+    width: 130px;
+}
 
 ul{
     font-family: Georgia, 'Times New Roman', Times, serif;
